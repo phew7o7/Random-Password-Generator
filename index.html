@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Random Password</title>
+    <script src="index.js"></script>
+
+    <style>
+        #password-display{
+            text-align: center;
+        }
+
+        #password{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="password">Password Generator</h1>
+    <p id="password-display"></p>
+
+    <script>
+        document.getElementById("password-display").textContent = `Generated password: ${password}`;
+    </script>
+</body>
+
+</html>
